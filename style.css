@@ -251,7 +251,7 @@ a {
     width: 0%;
   }
   100% {
-    width: 90%;
+    width: 80%;
   }
 }
 @keyframes javascript {
@@ -259,7 +259,7 @@ a {
     width: 0%;
   }
   100% {
-    width: 65%;
+    width: 80%;
   }
 }
 @keyframes wordpress {
@@ -267,7 +267,7 @@ a {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 .service_sec {
