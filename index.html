@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,5 +10,284 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar">
+        <div><h1 class="logo">Fortune</h1></div>
+        <div>
+          <ul class="nav_list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">AboutMe</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Mobile Hamburger Navigation -->
+      <nav class="hamburger-nav">
+        <div><h1 class="logo">Fortune</h1></div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul class="menu-links">
+            <!-- FIX: was <div class="menu-list"> -->
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#aboutme" onclick="toggleMenu()">AboutMe</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="home" id="home">
+        <div class="home_content">
+          <h3>Hi, Its Me</h3>
+          <h1>Fortune Iwueze.</h1>
+          <h3>I'm a <span class="dev"></span></h3>
+          <p>
+          Frontend Engineer focused on building reliable, user-centered products. skilled in HTML, CSS, React, React Native, TypeScript, Golang, TailwindCSS, JavaScript.
+          </p>
+          <a href="#contact" class="home_btn">Contact Me</a>
+          <a href="#projects" class="home_btn home-btn">My Projects</a>
+        </div>
+        <div class="home_image">
+          <img
+            src="whatsapp-img.png"
+            alt="Home
+        Image"
+            class="home_img"
+          />
+        </div>
+      </section>
+    </header>
+
+    <section class="abt_me_sec" id="aboutme">
+      <div class="about_me_container">
+        <h2 class="abt_txt">About<span>Me</span></h2>
+        <p class="abt_me">
+        Fortune Iwueze is a Front-End Developer and Software Engineer (Golang) who specializes in turning ideas, experiences, and everyday inspirations into real-life projects that people can actually use.
+        I enjoy building clean, responsive, and user-focused interfaces, and I’m passionate about bringing projects to life from just an idea. I’m privileged to have built at least 3 projects that helped me sharpen my skills and creativity.
+        For me, development is not just about writing code but about creating something that feels simple, useful, and impactful.
+        I’m always open to collaborating on exciting projects and exploring new opportunities.
+        </p>
+      </div>
+    </section>
+    <section class="skill_section">
+      <div class="my_skills">
+        <div class="skill_header">
+          <h2 class="abt_txt about_me_container">My<span>Skills</span></h2>
+        </div>
+        <div class="skills">
+          <div class="skill">
+            <i style="color: #c95d2e" class="bxl bx-html5 bx-css3"></i>
+            <h3>HTML||CSS</h3>
+          </div>
+          <div class="progress_bar">
+            <div class="html"><span>98%</span></div>
+          </div>
+          <div class="skill">
+            <i style="color: #1abc9c" class="bxl bx-React "></i>
+            <h3>React||React Native</h3>
+          </div>
+          <div class="progress_bar">
+            <div class="css"><span>80%</span></div>
+          </div>
+          <div class="skill">
+            <i style="color: #3498db" class="bxl bx-Typescript"></i>
+            <h3>TailwindCSS||Typescript</h3>
+          </div>
+          <div class="progress_bar">
+            <div class="javascript"><span>80%</span></div>
+          </div>
+          <div class="skill">
+            <i style="color: #fodb4f" class="bxl bx-javascript"></i>
+            <h3>Javascript</h3>
+          </div>
+          <div class="progress_bar">
+            <div class="wordpress"><span>70%</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service_sec" id="services">
+      <div>
+        <h2 class="abt_txt sub_title">My<span>Services</span></h2>
+        <div class="services">
+          <div class="service">
+            <h3 class="service_h3">
+              <span> <img class="service_img" src="web-design.png" /> </span>Web
+              Design
+            </h3>
+            <p>
+              I create visually appealing and user-friendly designs that enhance
+              the user experience.
+            </p>
+          </div>
+          <div class="service">
+            <h3 class="service_h3">
+              <span><img class="service_img" src="web-design.png" /> </span>Web
+              Development
+            </h3>
+            <p>
+              I build responsive and interactive websites using HTML, CSS, and
+              JavaScript.
+            </p>
+          </div>
+          <div class="service">
+            <h3 class="service_h3">
+              <span> <img class="service_img" src="web-design.png" /> </span
+              >Mobile-App Development
+            </h3>
+            <p>
+              I build high-quality, custom mobile applications and plugins, delivering solutions designed to drive results and exceed client expectations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="abt_txt">My<span>Projects</span></h2>
+      <div class="project_container">
+        <div class="project_card">
+          <img src="Image.png" alt="" />
+          <h3>Study<span>Buddy</span></h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Necessitatibus qui quae suscipit blanditiis eius iusto? Consectetur,
+            quo aperiam!
+          </p>
+          <div class="project_tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+        <div class="project_card">
+         <a href="https://webtech-theta-seven.vercel.app" target="_blank" rel="noopener noreferrer">
+         <img src="group.png" alt="WebTech Screenshot" />
+         </a>
+          <h3>Web<span>Tech</span></h3>
+          <p>
+           I built WebTech, a modern and responsive website using clean, maintainable code. It’s optimized for performance, user experience, and seamless functionality across all devices.
+          </p>
+          <div class="project_tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+          </div>
+        </div>
+        <div class="project_card">
+          <img src="Image.png" alt="" />
+          <h3>Study<span>Buddy</span></h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad modi
+            rem voluptate velit reprehenderit repellendus ex omnis excepturi.
+          </p>
+          <div class="project_tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact_sec" id="contact">
+      <h2 class="abt_txt sub_title">Contact<span>Me</span></h2>
+      <div class="contact_container">
+        <div class="img_contact_div">
+          <img class="contact_img" src="purpleee.jpg" alt="" />
+        </div>
+        <form action="" class="contact_form">
+          <input
+            type="name"
+            placeholder="Your Name"
+            class="contact_input"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Your Number"
+            class="contact_input"
+            required
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="contact_input"
+            required
+          />
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            class="contact_input"
+            required
+          ></textarea>
+          <button type="submit" class="contact_btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2025 Fortune Iwueze. All rights reserved.</p>
+      <div class="social_links">
+        <a href="http://linkedin.com/in/iwueze-fortune-934252367"
+          ><i class="bxl bx-linkedin-square" style="color: #201d1d"></i>
+        </a>
+        <a href="https://x.com/DevFortune_"
+          ><i class="bxl bx-twitter-x" style="color: #201d1d"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/zai_yon1?igsh=aTFnaHN4YmFwdmJo&utm_source=qr"
+          ><i class="bxl bx-instagram-alt" style="color: #201d1d"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="project.js"></script>
+>>>>>>> 1a9c118e8ebd75b87d09eeb8f39f5b7bce253fd5
   </body>
 </html>
