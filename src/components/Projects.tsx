@@ -1,7 +1,7 @@
 import React from "react";
-import studyBuddyImg from "../../public/image copy 2.png";
-import webTechImg from "../../public/image.png";
-import projectImg from "../../public/image copy.png";
+import studyBuddyImg from "../../public/Screenshot 2025-11-20 132111.png";
+import webTechImg from "../../public/Screenshot 2025-11-20 130359.png";
+import projectImg from "../../public/Screenshot 2025-11-21 133708.png";
 
 const Projects: React.FC = () => {
   const projects = [

@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         <h1 className="text-5xl md:text-5xl lg:text-5xl font-bold">
           Fortune Iwueze.
         </h1>
-        <h3 className="text-xl md:text-1xl text-purple-900 mb-3">
+        <h3 className="text-xl md:text-3xl text-purple-900">
           I'm a{" "}
           <span ref={typedRef} className="text-purple-900 font-bold"></span>
         </h3>
