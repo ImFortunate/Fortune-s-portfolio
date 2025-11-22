@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-fadeIn {
+    @apply opacity-100 translate-y-0 transition-all duration-1000 ease-out;
+  }
+}
+
+body {
+  font-family: "Sofia Sans", sans-serif;
+}
